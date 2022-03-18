@@ -1,7 +1,10 @@
 const chartData = "http://localhost/dataset.csv";
 
 async function moses() {
-  await d3.csv(chartData).then((datapoints) => {
+  await d3.csv(chartData, {
+  mode: 'cors',
+  credentials: 'include'
+}).then((datapoints) => {
     console.log(datapoints);
     const area = [];
     const year = [];
