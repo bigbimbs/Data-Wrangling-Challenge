@@ -1,0 +1,11 @@
+{
+  "name": "data-wrangling-challenge",
+  "version": "1.0.0",
+  "description": "Assessment",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moses Oderinde",
+  "license": "ISC"
+}
